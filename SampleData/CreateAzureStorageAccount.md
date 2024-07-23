@@ -15,6 +15,9 @@ Please consider this as an excercise to test Purview Data, the configuration use
 
 ![image](https://github.com/user-attachments/assets/1a718659-f91f-4db5-907b-fc38facf4731)
 
+![image](https://github.com/user-attachments/assets/5929466e-9b31-40bc-ac18-bfbb19d4f0eb)
+
+
 ![Azure Storage Explorer icons8](https://github.com/user-attachments/assets/33e05f32-4be5-49a2-9b60-1da0e1a9a144)
 Download Azure Storage Explorer from https://azure.microsoft.com/en-us/products/storage/storage-explorer/
 
@@ -27,3 +30,7 @@ Download Azure Storage Explorer from https://azure.microsoft.com/en-us/products/
 ![image](https://github.com/user-attachments/assets/4b72eacf-aa68-4342-a3a7-9376ee33f5b6)
 
 ![image](https://github.com/user-attachments/assets/80650cfe-e3e3-4d51-9fab-0a2d345db016)
+
+![image](https://github.com/user-attachments/assets/33238aba-8865-454c-9814-3b614f83d126)
+
+![image](https://github.com/user-attachments/assets/7076c0d9-c79f-43d5-a468-3743da944628)
