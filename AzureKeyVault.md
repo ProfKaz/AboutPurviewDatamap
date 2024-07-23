@@ -11,3 +11,24 @@
 ![image](https://github.com/user-attachments/assets/41ade278-8048-4f19-b504-d2163e21def1)
 
 ![image](https://github.com/user-attachments/assets/e03e167a-a940-4f59-b827-030ac9f5d6e0)
+
+![image](https://github.com/user-attachments/assets/b6a69450-9f05-46ac-995e-7c393663f0b6)
+
+Because the Keyvault was created with Azure Role-based access control, we need to set a Keyvault Administrator
+![image](https://github.com/user-attachments/assets/b71123c5-b40d-4276-8f39-44052438613c)
+
+![image](https://github.com/user-attachments/assets/3d46b513-d32c-479f-83d9-c2af58fb825f)
+
+![image](https://github.com/user-attachments/assets/b6e02443-512d-41b8-8944-bbf13a24c551)
+
+![image](https://github.com/user-attachments/assets/b512c5bd-f454-4233-819b-6bd10a3a9785)
+
+
+### At storage account
+Copy name and key1
+![image](https://github.com/user-attachments/assets/b2f80798-faeb-4a0f-8d1c-77afa1c9c22f)
+
+### At Keyvault
+![image](https://github.com/user-attachments/assets/32c6971a-fda7-4547-b8f2-9142914e7405)
+
+![image](https://github.com/user-attachments/assets/a617a37e-3642-447f-81eb-62ea7a79fc4f)
