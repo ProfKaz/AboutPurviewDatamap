@@ -32,3 +32,11 @@ Copy name and key1
 ![image](https://github.com/user-attachments/assets/32c6971a-fda7-4547-b8f2-9142914e7405)
 
 ![image](https://github.com/user-attachments/assets/a617a37e-3642-447f-81eb-62ea7a79fc4f)
+
+### Give Permissions to Service Principal to read keys
+
+![image](https://github.com/user-attachments/assets/3215fada-7737-4f53-8a6b-16cc0e37da65)
+
+![image](https://github.com/user-attachments/assets/ef46234e-4fd8-405b-9d12-37f3864d1c93)
+
+![image](https://github.com/user-attachments/assets/650cebfb-0afa-4171-9362-32ccb5b825a9)
