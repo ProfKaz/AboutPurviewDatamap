@@ -15,6 +15,18 @@ You can access through https://purview.microsoft.com
 }
 ```
 
+### Azure services used in this implementation
+
+> If you want to use Purview Data Map using only Azure Role-Based Access Control these are required:
+- Microsoft Purview accounts
+- Azure SQL
+- Storage accounts
+
+> If you want to use Purview Data Map using Service Principal storing keys, you will need additional services like as:
+- Key vaults
+- Managed Identities
+- Microsoft Entra
+
 
 ![image](https://github.com/user-attachments/assets/cbea0e7e-f4e7-4990-bf85-b139b48fbc88)
 
