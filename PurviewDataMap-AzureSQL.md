@@ -15,6 +15,13 @@ EXEC sp_addrolemember 'db_owner', [Your Purview Account]
 GO
 ```
 
+```SQL
+CREATE USER [Your Purview Account] FROM EXTERNAL PROVIDER  
+GO  
+EXEC sp_addrolemember 'db_datareader', [Your Purview Account] 
+GO
+```
+
 ![image](https://github.com/user-attachments/assets/90d40311-eae3-4376-88f4-0de227a8eae0)
 
 ![image](https://github.com/user-attachments/assets/b3890cee-4002-4182-aa69-0146dfe296ff)
