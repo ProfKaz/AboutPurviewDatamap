@@ -11,3 +11,5 @@ When you arrive for first time to Purview Portal it's possible that you cannot s
 After the account is created you will be able to see the option under Purview Portal
 
 ![image](https://github.com/user-attachments/assets/9d725627-6ee5-4884-bf3e-90672149de86)
+
+Now we can go to the [Purview Portal](https://purview.microsoft.com) and start with this trip to [configure Purview Data Map](PurviewPortalConfiguration.md)
