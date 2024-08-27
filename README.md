@@ -23,7 +23,7 @@ When you arrive for first time to Purview Portal it's possible that you cannot s
 
 ![image](https://github.com/user-attachments/assets/20d8b1b2-d625-4768-9fe2-606fcccaa4f3)
 
-[Configure your Microsoft Purview Account](AboutPurviewDatamap/01%20-%20MicrosoftPurviewAccount.md)
+[Configure your Microsoft Purview Account](01%20-%20MicrosoftPurviewAccount.md)
 
 After the account is created you will be able to see the option under Purview Portal
 
