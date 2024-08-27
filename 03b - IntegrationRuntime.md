@@ -52,4 +52,5 @@ To configure this service we need to connect to [Purview Portal](https://purview
 
 ![image](https://github.com/user-attachments/assets/166fa35d-6ea1-4fbd-9ea7-8320b99c06cc)
 
+![image](https://github.com/user-attachments/assets/f68f51e0-5631-4267-ace8-ce620e701124)
 
