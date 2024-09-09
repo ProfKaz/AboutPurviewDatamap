@@ -3,7 +3,7 @@
 In this page I'll try to explain in an easy way how to set and configure the different conntectors.
 
 We will show how to resolve this common scenario:
-![image](https://github.com/user-attachments/assets/4d7be607-d3a8-4f97-a0b2-b0f5e7b7e692)
+![Purview Data Governancevsdx](https://github.com/user-attachments/assets/3c509726-3667-40f9-b6b8-d3558450de37)
 
 In the previous image we can see that we have:
 - On-premises SQL
