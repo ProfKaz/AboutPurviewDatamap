@@ -13,6 +13,10 @@ We will cover:
 >[!NOTE]
 > Ensure you have an Azure subscription and required permissions to create resources
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/496be512-c9f1-4f29-8175-6ced5ef86357" width="700"></p>
+<p align="center">Microsoft Purview Data Map and Azure Key Vault to store SQL On-premises passwords.</p>
+
 <br>
 
 <details>
