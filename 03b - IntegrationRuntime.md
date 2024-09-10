@@ -4,6 +4,9 @@ To access to SQL On-premises it's required to install an agent as a kind of prox
 
 ![image](https://github.com/user-attachments/assets/27ff85a8-9157-4c96-a000-38715ac6c005)
 
+<details>
+<summary>Starting with Microsoft Integration Runtime agent</summary>
+
 To configure this service we need to connect to [Purview Portal](https://purview.microsoft.com) and select data map
 
 ![image](https://github.com/user-attachments/assets/c00923a6-69e5-4ea9-83c3-87d50f356e3f)
@@ -16,8 +19,15 @@ To configure this service we need to connect to [Purview Portal](https://purview
 
 ![image](https://github.com/user-attachments/assets/87ba8df1-9d1a-4651-89fc-1efd1db9b67a)
 
-![image](https://github.com/user-attachments/assets/9f0c4e18-1ce0-454d-9df3-db02749b774b)
+![image](https://github.com/user-attachments/assets/9f0c4e18-1ce0-454d-9df3-db02749b774b
 
+</details>
+
+<br>
+
+<details>
+<summary>Downloading Microsoft Integration Runtime agent</summary>
+  
 [Microsoft Purview Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539)
 
 ![image](https://github.com/user-attachments/assets/401a4d12-5263-400f-93a0-cb5be5c00f10)
@@ -38,6 +48,13 @@ To configure this service we need to connect to [Purview Portal](https://purview
 
 ![image](https://github.com/user-attachments/assets/edbed469-8765-45ea-a89b-c2a4d7b32e6e)
 
+</details>
+
+<br>
+
+<details>
+<summary>Configuring Microsoft Integration Runtime agent</summary>
+
 ![image](https://github.com/user-attachments/assets/954ba7db-d729-484e-bbcb-1d39d0b8e4f0)
 
 ![image](https://github.com/user-attachments/assets/ea3e9b67-4651-47e6-a8c6-d61cd0472132)
@@ -50,7 +67,17 @@ To configure this service we need to connect to [Purview Portal](https://purview
 
 ![image](https://github.com/user-attachments/assets/2278bc59-2f39-443e-9a36-fb1d38ac777f)
 
+</details>
+
+<br>
+
+<details>
+<summary>Validating Microsoft Integration Runtime agent status</summary>
+
 ![image](https://github.com/user-attachments/assets/166fa35d-6ea1-4fbd-9ea7-8320b99c06cc)
 
 ![image](https://github.com/user-attachments/assets/f68f51e0-5631-4267-ace8-ce620e701124)
 
+</details>
+
+<br><br>
