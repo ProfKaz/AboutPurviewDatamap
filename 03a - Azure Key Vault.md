@@ -1,4 +1,34 @@
-## To configure Azure Key vault to store passwords
+## Configuring Azure Key Vault to Store and Manage Passwords
+
+In this section, we will walk through the steps required to configure Azure Key Vault, assign permissions for managing credentials, and grant Microsoft Purview access to retrieve and use those credentials.
+
+Azure Key Vault is a service designed to securely store sensitive information such as passwords, API keys, certificates, and secrets, ensuring data protection through encryption and controlled access.
+
+We will cover:
+
+- Configuring Azure Key Vault
+- Assigning the necessary permissions to manage credentials
+- Granting access to Microsoft Purview so it can securely use the stored information
+
+>[!NOTE]
+> Ensure you have an Azure subscription and required permissions to create resources
+
+<br>
+
+<details>
+<summary>Creating an Azure Key Vault</summary>
+
+In general the steps are:
+1. Go to the Azure Portal.
+2. Search for Key Vaults and click Create.
+3. Fill in the necessary details:
+   - Subscription: Select your subscription.
+   - Resource Group: Choose an existing one or create a new one.
+   - Key Vault Name: Provide a unique name.
+   - Region: Select your region.
+4. Click Review + Create, and after validation, click Create.
+
+You can see the images below to drive to you through the process. 
 
 ![image](https://github.com/user-attachments/assets/8e61d13a-742f-4d92-94e4-37fde8c5bba7)
 
@@ -20,6 +50,13 @@
 
 ![image](https://github.com/user-attachments/assets/a6570a1e-e761-4ed8-8120-96d954e98685)
 
+</details>
+
+<br>
+
+<details>
+<summary>Adding Permissions to Azure Key Vault for Credential Management</summary>
+  
 ![image](https://github.com/user-attachments/assets/c342f048-88d9-4e5b-8c42-4ba07154d9e6)
 
 ![image](https://github.com/user-attachments/assets/6520a378-d8b6-4547-855b-801b61f2c7bb)
@@ -32,7 +69,12 @@
 
 ![image](https://github.com/user-attachments/assets/ac3f3895-4e71-46c1-b6b4-cf501718fb97)
 
-### Purview account
+</details>
+
+<br>
+
+<details>
+<summary>Granting Microsoft Purview Data Map Access to Azure Key Vault</summary>
 
 ![image](https://github.com/user-attachments/assets/d0a243bf-98e6-4b3f-841e-ba705d47e4de)
 
@@ -46,7 +88,12 @@
 
 ![image](https://github.com/user-attachments/assets/f3d4a3e9-d540-467f-9cec-65a6d5be6a9f)
 
-### Set key for SQL On-premises
+</details>
+
+<br>
+
+<details>
+<summary>Storing SQL On-Premises Credentials in Azure Key Vault</summary>
 
 ![image](https://github.com/user-attachments/assets/6dfee81b-b4f6-48a2-aa5f-aa999d70b696)
 
@@ -58,8 +105,12 @@
 
 ![image](https://github.com/user-attachments/assets/e1c1f140-63d2-4c2b-91b9-2a27698a8f2c)
 
+</details>
 
-### Integration between Azure Key Vault and Microsoft Purview Data Map
+<br>
+
+<details>
+<summary>Integrating Azure Key Vault with Microsoft Purview Data Map</summary>
 
 ![image](https://github.com/user-attachments/assets/8476e0d6-f4c3-4cfe-8aab-3a6701687444)
 
@@ -68,3 +119,7 @@
 ![image](https://github.com/user-attachments/assets/f9598588-f71c-4d86-a98f-a568609de7a4)
 
 ![image](https://github.com/user-attachments/assets/ec80dad1-04bf-4176-b8d1-21a8e9eba8b7)
+
+</details>
+
+<br><br>
