@@ -1,4 +1,4 @@
-# To access SQL On-premises
+# Microsoft Integration Runtime to access SQL On-premises
 
 To access to SQL On-premises it's required to install an agent as a kind of proxy to permit Purview Data Map reach the servers.
 
