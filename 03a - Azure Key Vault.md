@@ -45,3 +45,26 @@
 ![image](https://github.com/user-attachments/assets/4ae4e801-f95d-4d31-8551-52748061f750)
 
 ![image](https://github.com/user-attachments/assets/f3d4a3e9-d540-467f-9cec-65a6d5be6a9f)
+
+### Set key for SQL On-premises
+
+![image](https://github.com/user-attachments/assets/6dfee81b-b4f6-48a2-aa5f-aa999d70b696)
+
+![image](https://github.com/user-attachments/assets/4cc42366-086d-4b95-85f1-0db204a9b4c8)
+
+![image](https://github.com/user-attachments/assets/f76021d6-2e4d-4e83-a8a0-46e36af131bf)
+
+![image](https://github.com/user-attachments/assets/bdc83629-44c9-4bcd-a047-212f18a4bd7a)
+
+![image](https://github.com/user-attachments/assets/e1c1f140-63d2-4c2b-91b9-2a27698a8f2c)
+
+
+### Integration between Azure Key Vault and Microsoft Purview Data Map
+
+![image](https://github.com/user-attachments/assets/8476e0d6-f4c3-4cfe-8aab-3a6701687444)
+
+![image](https://github.com/user-attachments/assets/34e684b6-bbc0-4c21-9632-102fbf03c8b4)
+
+![image](https://github.com/user-attachments/assets/f9598588-f71c-4d86-a98f-a568609de7a4)
+
+![image](https://github.com/user-attachments/assets/ec80dad1-04bf-4176-b8d1-21a8e9eba8b7)
