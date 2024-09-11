@@ -14,7 +14,7 @@ We will cover:
 > Ensure you have an Azure subscription and required permissions to create resources
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/496be512-c9f1-4f29-8175-6ced5ef86357" width="700"></p>
+<img src="https://github.com/user-attachments/assets/496be512-c9f1-4f29-8175-6ced5ef86357" width="650"></p>
 <p align="center">Microsoft Purview Data Map and Azure Key Vault to store SQL On-premises passwords.</p>
 
 <br>
@@ -34,25 +34,56 @@ In general the steps are:
 
 You can see the images below to drive to you through the process. 
 
-![image](https://github.com/user-attachments/assets/8e61d13a-742f-4d92-94e4-37fde8c5bba7)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8e61d13a-742f-4d92-94e4-37fde8c5bba7" width="650"></p>
+<p align="center">Azure Portal.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/fc41c77a-149f-490a-b62c-5d8ea33425c5)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/fc41c77a-149f-490a-b62c-5d8ea33425c5" width="650"></p>
+<p align="center">Search for Key Vaults.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/7b3739b2-02ae-44f3-befa-074edcb224fa)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7b3739b2-02ae-44f3-befa-074edcb224fa" width="650"></p>
+<p align="center">Create a new Key vault.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/7bb432a3-db90-4630-b977-769509b3dbad)
 
-![image](https://github.com/user-attachments/assets/6af97abb-eb6d-4d65-846c-f7aecd26a23d)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7bb432a3-db90-4630-b977-769509b3dbad" width="650"></p>
+<p align="center">Fill in the necessary details.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/ff67f99a-a2dd-4b91-92e8-cf8b61fbb33a)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6af97abb-eb6d-4d65-846c-f7aecd26a23d" width="650"></p>
+<p align="center">Access configuration.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/61ba0767-d879-4789-9650-1d59f81559b9)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ff67f99a-a2dd-4b91-92e8-cf8b61fbb33a" width="650"></p>
+<p align="center">Network configuration.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/27f44682-e57d-41cf-8c15-c15db26cc844)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/61ba0767-d879-4789-9650-1d59f81559b9" width="650"></p>
+<p align="center">Review and Create.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/01d955e7-b370-4fcc-8c0f-90fab8fb0dda)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/27f44682-e57d-41cf-8c15-c15db26cc844" width="650"></p>
+<p align="center">Deployment progress.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/a6570a1e-e761-4ed8-8120-96d954e98685)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/01d955e7-b370-4fcc-8c0f-90fab8fb0dda" width="650"></p>
+<p align="center">Deployment completed.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a6570a1e-e761-4ed8-8120-96d954e98685" width="650"></p>
+<p align="center">Key Vault main interface.</p>
+<br>
 
 </details>
 
