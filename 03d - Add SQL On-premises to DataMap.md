@@ -1,39 +1,46 @@
 ## Registering your SQL On-Premises in Microsoft Purview Data Map
 
 After completing the previous steps, you should have the following components ready:
-- Azure Key Vault configured to securely store your SQL credentials.
-- Microsoft Integration Runtime set up as a bridge to allow Microsoft Purview Data Map to access your SQL Server on-premises.
-- SQL On-Premises configured with a SQL account specifically for use by Microsoft Purview Data Map.
+- **Azure Key Vault:** Configured to securely store your SQL credentials.
+- **Microsoft Integration Runtime:** Set up as a bridge for Microsoft Purview Data Map to access your SQL Server on-premises.
+- **SQL On-Premises:** Configured with a SQL account for Microsoft Purview Data Map.
 
-Now, let's proceed with registering your SQL on-premises server in Purview Data Map to enable secure data scanning and management.
+Now, let's move forward with registering your SQL on-premises server in Purview Data Map to enable secure data scanning and management.
 
-To achieve this, we will need to follow these steps:
-- Go to **Data Map** menu under [Microsoft Purview Portal](https://purview.microsoft.com)
-- Select **Data sources** at left side
-- Under **Register data source** look for ansd select **SQL Server**
-- You will need to get the Fully-Qualified Domain Name (FQDN) from your SQL server on-premises, you can get from about menu under Settings
-- In the next step you will need to set:
-  - Data source name: Can be any name to easy identify the server, you can use the same server name
-  - Server endpoint: you need to add here the FQDN from your SQL Server
-  - Domain: You can use the existing one, or anyone previously created in the point 02 of this guide.
-  - Collection: This was previously created at the step 02 on this guide.
-  - Press **Register**
-The next step is establish a scan service for your SQL server on-premises, to do that you need to:
-- Press the scan icon, a small circular blue icon
-- To register you need to complete these information:
-  - Name: can be used the default assigned or any name
-  - Connect with integration runtime: here we need to select the same configured on the step 03
-  - Server endpoint: is selected by default and correspond to the SQL Server FQDN
-  - Database name: If you leave this value on blank all the databases will be scanned, or you can set ths specific datbase that you want to scan
-  - Check Enable logging for scan monitor
-  - Domain: is selected by default
-  - Collection: This was previously created at the step 02 on this guide.
-- Press test connection to validate your configuration and then Continue
-- 
+Steps to Register SQL Server in Microsoft Purview Data Map:
+1. Navigate to the **Data Map** in the  [Microsoft Purview Portal](https://purview.microsoft.com).
+2. Select **Data sources** on the left side.
+3. Under **Register data source**, search for and select **SQL Server**.
+4. Obtain the **Fully-Qualified Domain Name (FQDN)** of your SQL on-premises server from the **About** menu under **Settings**.
+5. In the next step, provide the following information:
+  - **Data source name:** Enter a descriptive name, such as the server name.
+  - **Server endpoint:** Input the FQDN from your SQL Server.
+  - **Domain:** Select an existing domain or one created in [Step 2](02%20-%20PurviewPortalConfiguration.md) of this guide.
+  - **Collection:** Choose the collection previously created in [Step 2](02%20-%20PurviewPortalConfiguration.md) of this guide.
+6. Press **Register**
+
+<br><br>
+Setting Up the Scan Service for SQL On-Premises:
+1. Press the scan icon (a small circular blue icon).
+2. Complete the following information:
+  - **Name:** Use the default name or enter a custom one.
+  - **Connect with integration runtime:** Select the runtime configured in [Step 3](03b%20-%20IntegrationRuntime.md).
+  - **Server endpoint:** This will default to the SQL Server FQDN.
+  - **Database name:** Leave blank to scan all databases or specify a database to scan.
+  - **Enable** logging for scan monitoring.
+  - **Domain:** This will be selected by default.
+  - **Collection:** Select the collection created in [Step 2](02%20-%20PurviewPortalConfiguration.md).
+3. Press **test connection** to validate your configuration and then **Continue**.
+4. **Scope your scan:** Optionally, select specific tables or reduce the scope of the scan.
+5. **Select a scan rule set:** Choose the default SqlServer rule set.
+6. **Set a scan trigger:** Schedule your scan. For example, set it to run on the 1st day of each month.
+7. Press **Save and Run**. If you do not want to run the scan immediately, click the arrow next to the button and select **Save** only.
+
+After completing these steps, you can monitor the scan progress and view the results once the process is complete.
 
 <br>
 <details>
-<summary>Register your SQL server</summary>
+<summary>Steps to Register SQL Server in Microsoft Purview Data Map</summary>
 
 ![image](https://github.com/user-attachments/assets/d2095ec5-8238-4fed-9599-a382c8c7ab57)
 
@@ -49,7 +56,7 @@ The next step is establish a scan service for your SQL server on-premises, to do
 <br>
 
 <details>
-<summary>Establish a scan process for your data</summary>
+<summary>Setting Up the Scan Service for SQL On-Premises</summary>
 
 ![image](https://github.com/user-attachments/assets/9763a1cd-e1ad-44e5-946f-4a93845f7e90)
 
