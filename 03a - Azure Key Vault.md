@@ -234,16 +234,93 @@ With all the necessary permissions assigned, we can now proceed to store the pas
 
 <br>
 
+
 <details>
-<summary>Integrating Azure Key Vault with Microsoft Purview Data Map</summary>
+<summary>05 - Connecting Microsoft Purview Data Map to Azure Key Vault</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/8476e0d6-f4c3-4cfe-8aab-3a6701687444)
+To start using the credentials stored in Azure Key Vault, follow these steps
+1. In **Microsoft Purview Data Map**, expand **Source management** and navigate to **Credentials**.
+2. Click **Manage Key Vault connections**
+3. In the pane on the right, Click **+ New** and fill in the required details:
+   - **Name:** Enter a clear and descriptive name
+   - **Description:**(Optional) While not mandatory, providing a description can be helpful for future reference.
+   - **Select a domain:** Use the domain created in [Step 02](02%20-%20PurviewPortalConfiguration.md).
+   - **Azure subscription:** Select the subscription where the Key Vault was created, or keep All to view all available options.
+   - **Key Vault name:** Select the Key Vault name created earlier in this section.
+4. Click **Create**
+5. After completing the setup, click **Close**.
 
-![image](https://github.com/user-attachments/assets/34e684b6-bbc0-4c21-9632-102fbf03c8b4)
+<br>
 
-![image](https://github.com/user-attachments/assets/f9598588-f71c-4d86-a98f-a568609de7a4)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/35e83205-c6d7-4a69-96c7-794e5a51e889" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Credentials menu.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/ec80dad1-04bf-4176-b8d1-21a8e9eba8b7)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/99fb5500-2a81-4cbf-8800-3128089c1fe5" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Manage Key Vault connections.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3d3515af-d31d-4f86-936d-fa8c39ac1525" width="650"></p>
+<p align="center">Microsoft Purview Data Map, New Key Vault.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8b4c9f8b-ef40-4ba6-b305-a3ae9a024ea2" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Adding Key Vault values.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2cca9c8e-53c3-45d3-899a-f9718be8bffa" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Key Vault connection created</p>
+<br>
+
+</details>
+
+<br>
+
+<details>
+<summary>06 - Connecting Microsoft Purview Data Map to Azure Key Vault for Password Access</summary>
+<br>
+
+In this final step, we will establish the connection between Microsoft Purview Data Map and Azure Key Vault to securely access the stored passwords. To achieve this, follow these steps:
+1. In **Microsoft Purview Data Map**, expand **Source management** and navigate to **Credentials**.
+2. Click **+ New**
+3. In the pane on the right, fill in the required details:
+   - **Name:** Enter a clear and descriptive name.
+   - **Description:**(Optional) While not mandatory, providing a description can be helpful for future reference.
+   - **Select a domain:** Use the domain created in [Step 02](02%20-%20PurviewPortalConfiguration.md).
+   - **Authentication method:** Choose **SQL Authentication**.
+   - **User name:** Enter the username set in [Step 03c](03c%20-%20Configure%20SQL%20on-premises.md).
+   - **Key Vault connection:** Select the connection created earlier in this section.
+   - **Secret name:** Enter the secret name used when storing the SQL password in Key Vault.
+   - **Secret version:** Leave this field blank unless you have multiple versions for a same Secret name.
+4. Click **Create**.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8476e0d6-f4c3-4cfe-8aab-3a6701687444" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Credentials menu.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/34e684b6-bbc0-4c21-9632-102fbf03c8b4" width="650"></p>
+<p align="center">Microsoft Purview Data Map,  New credentials.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f9598588-f71c-4d86-a98f-a568609de7a4" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Adding your SQL Server on-premises credentials.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ec80dad1-04bf-4176-b8d1-21a8e9eba8b7" width="650"></p>
+<p align="center">Microsoft Purview Data Map, New credential created.</p>
+<br>
 
 </details>
 
