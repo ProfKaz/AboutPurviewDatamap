@@ -20,7 +20,8 @@ We will cover:
 <br>
 
 <details>
-<summary>Creating an Azure Key Vault</summary>
+<summary>01 - Creating an Azure Key Vault</summary>
+<br>
 
 In general the steps are:
 1. Go to the Azure Portal.
@@ -90,26 +91,64 @@ You can see the images below to drive to you through the process.
 <br>
 
 <details>
-<summary>Adding Permissions to Azure Key Vault for Credential Management</summary>
-  
-![image](https://github.com/user-attachments/assets/c342f048-88d9-4e5b-8c42-4ba07154d9e6)
+<summary>02 - Adding Permissions to Azure Key Vault for Credential Management</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/6520a378-d8b6-4547-855b-801b61f2c7bb)
+In this step, we will assign the **Key Vault Administrator** role to your account, which is necessary for securely storing SQL Server on-premises credentials in Azure Key Vault. To do this, follow these steps:
+1. In the **Key Vault console**, navigate to **Access control (IAM)**.
+2. Click **+ Add** and select **Add role assignment**.
+3. Choose **Key Vault Administrator**, then click **Next**.
+4. Click **+ Select memebers**.
+5. In the right-hand menu, search for your account and select it to assign the administrator role.
+6. Finally, press **Review + assign** twice to complete the process.
+   
+<br>
+   
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c342f048-88d9-4e5b-8c42-4ba07154d9e6" width="650"></p>
+<p align="center">Key Vault Access control (IAM) menu.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/06a5bc8f-9ea3-4e15-a57d-b0e4d117c11d)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6520a378-d8b6-4547-855b-801b61f2c7bb" width="650"></p>
+<p align="center">Key Vault, Add role assignment (Key Vault Admimnistrator).</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/0f48afb6-4fb7-4ae0-9982-5911b2f48a71)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/06a5bc8f-9ea3-4e15-a57d-b0e4d117c11d" width="650"></p>
+<p align="center">Key Vault, Select members to assign role.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/d0525a29-c52c-40cd-a26c-e2d9908d3aa3)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0f48afb6-4fb7-4ae0-9982-5911b2f48a71" width="650"></p>
+<p align="center">Key Vault, Search for the users.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/ac3f3895-4e71-46c1-b6b4-cf501718fb97)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d0525a29-c52c-40cd-a26c-e2d9908d3aa3" width="650"></p>
+<p align="center">Key Vault, Review and assign.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ac3f3895-4e71-46c1-b6b4-cf501718fb97" width="650"></p>
+<p align="center">Key Vault, Assign summary.</p>
+<br>
 
 </details>
 
 <br>
 
 <details>
-<summary>Granting Microsoft Purview Data Map Access to Azure Key Vault</summary>
+<summary>03 - Granting Microsoft Purview Data Map Access to Azure Key Vault</summary>
+<br>
+
+In this step, we will assign the **Key Vault Secrets User** role to your account. This role is required to allow Microsoft Purview Data Map to access and retrieve credentials stored in Azure Key Vault. To do this, follow these steps
+1. In the **Key Vault console**, navigate to **Access control (IAM)**.
+2. Click **+ Add** and select **Add role assignment**.
+3. Choose **Key Vault Secrets User**, then click **Next**.
+4. Click **+ Select memebers**.
+5. In the right-hand menu, search for the Microsoft Purview Account created during [Step 01](01%20-%20MicrosoftPurviewAccount.md) and select it to assign the administrator role.
+6. Finally, press **Review + assign** twice to complete the process.
 
 ![image](https://github.com/user-attachments/assets/d0a243bf-98e6-4b3f-841e-ba705d47e4de)
 
