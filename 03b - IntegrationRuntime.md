@@ -169,11 +169,24 @@ To configure the Microsoft Purview Integration Runtime, follow these steps:
 <br>
 
 <details>
-<summary>Validating Microsoft Integration Runtime agent status</summary>
+<summary>04 - Validating Microsoft Integration Runtime agent status</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/166fa35d-6ea1-4fbd-9ea7-8320b99c06cc)
+To check the correct deploy for Microsoft Purview Integration Runtime, follow these steps:
+1. Connect to [Microsoft Purview Portal](https://purview.microsoft.com) and navigate to **Data Map**.
+2. Expand **Source Management** and select **Integration runtimes**
+3. If it's required, click **Refresh** to update the status.
+<br>
 
-![image](https://github.com/user-attachments/assets/f68f51e0-5631-4267-ace8-ce620e701124)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/166fa35d-6ea1-4fbd-9ea7-8320b99c06cc" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Integration Runtime refresh status.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f68f51e0-5631-4267-ace8-ce620e701124" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Integration Runtime status running.</p>
+<br>
 
 </details>
 
