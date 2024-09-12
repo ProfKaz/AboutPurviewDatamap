@@ -7,6 +7,11 @@ After completing the previous steps, you should have the following components re
 
 Now, let's move forward with registering your SQL on-premises server in Purview Data Map to enable secure data scanning and management.
 
+<br>
+<details>
+<summary>01 - Steps to Register SQL Server in Microsoft Purview Data Map</summary>
+<br>
+  
 Steps to Register SQL Server in Microsoft Purview Data Map:
 1. Navigate to the **Data Map** in the  [Microsoft Purview Portal](https://purview.microsoft.com).
 2. Select **Data sources** on the left side.
@@ -18,8 +23,40 @@ Steps to Register SQL Server in Microsoft Purview Data Map:
   - **Domain:** Select an existing domain or one created in [Step 2](02%20-%20PurviewPortalConfiguration.md) of this guide.
   - **Collection:** Choose the collection previously created in [Step 2](02%20-%20PurviewPortalConfiguration.md) of this guide.
 6. Press **Register**
+<br>
 
-<br><br>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d2095ec5-8238-4fed-9599-a382c8c7ab57" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Register.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/89f4d9c7-f161-4c35-a24f-761b1a86874b" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Register data source.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2ebb8c52-832e-4fd4-bdc0-cd76c1b6691f" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Select SQL Server.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/02c016fa-3f1e-4c65-a8e2-171d9dd2b3c9" width="650"></p>
+<p align="center">SQL Server get Full-Qualified Domain Name.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/dc4f59de-cd01-4183-afcb-46249fccfa04" width="650"></p>
+<p align="center">Microsoft Purview Data Map, register SQL server.</p>
+<br>
+
+</details>
+<br>
+
+<details>
+<summary>Setting Up the Scan Service for SQL On-Premises</summary>
+<br>
+
 Setting Up the Scan Service for SQL On-Premises:
 1. Press the scan icon (a small circular blue icon).
 2. Complete the following information:
@@ -37,26 +74,6 @@ Setting Up the Scan Service for SQL On-Premises:
 7. Press **Save and Run**. If you do not want to run the scan immediately, click the arrow next to the button and select **Save** only.
 
 After completing these steps, you can monitor the scan progress and view the results once the process is complete.
-
-<br>
-<details>
-<summary>Steps to Register SQL Server in Microsoft Purview Data Map</summary>
-
-![image](https://github.com/user-attachments/assets/d2095ec5-8238-4fed-9599-a382c8c7ab57)
-
-![image](https://github.com/user-attachments/assets/89f4d9c7-f161-4c35-a24f-761b1a86874b)
-
-![image](https://github.com/user-attachments/assets/2ebb8c52-832e-4fd4-bdc0-cd76c1b6691f)
-
-![image](https://github.com/user-attachments/assets/02c016fa-3f1e-4c65-a8e2-171d9dd2b3c9)
-
-![image](https://github.com/user-attachments/assets/dc4f59de-cd01-4183-afcb-46249fccfa04)
-
-</details>
-<br>
-
-<details>
-<summary>Setting Up the Scan Service for SQL On-Premises</summary>
 
 ![image](https://github.com/user-attachments/assets/9763a1cd-e1ad-44e5-946f-4a93845f7e90)
 
