@@ -54,7 +54,7 @@ Steps to Register SQL Server in Microsoft Purview Data Map:
 <br>
 
 <details>
-<summary>Setting Up the Scan Service for SQL On-Premises</summary>
+<summary>02 - Setting up the Scan Service for SQL On-Premises</summary>
 <br>
 
 Setting Up the Scan Service for SQL On-Premises:
@@ -74,24 +74,52 @@ Setting Up the Scan Service for SQL On-Premises:
 7. Press **Save and Run**. If you do not want to run the scan immediately, click the arrow next to the button and select **Save** only.
 
 After completing these steps, you can monitor the scan progress and view the results once the process is complete.
+<br>
 
-![image](https://github.com/user-attachments/assets/9763a1cd-e1ad-44e5-946f-4a93845f7e90)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9763a1cd-e1ad-44e5-946f-4a93845f7e90" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Set scan.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/28f82076-fe00-46d5-93df-9e9fd0218de4)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/28f82076-fe00-46d5-93df-9e9fd0218de4" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Configure scan.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/ec576202-975f-4dc2-9076-f06b67816b42)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ec576202-975f-4dc2-9076-f06b67816b42" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Scope scan.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/169000c1-0970-4176-afc6-e81c9c37afec)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/169000c1-0970-4176-afc6-e81c9c37afec" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Select a scan rule set.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/1e5cd23f-88ed-42a6-bb26-f2f5baad7c9e)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1e5cd23f-88ed-42a6-bb26-f2f5baad7c9e" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Schedule the scan process.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/13cc739c-5858-4c0f-a60a-76f9bc688ef0)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/13cc739c-5858-4c0f-a60a-76f9bc688ef0" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Establish schedule.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/28c8f447-94cf-4504-a6e1-bd561a1ac34c)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/28c8f447-94cf-4504-a6e1-bd561a1ac34c" width="300"></p>
+<p align="center">Microsoft Purview Data Map, Review, Save and Run.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/cfc658dd-f6c2-403a-889c-11a5fdedb5e7)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/cfc658dd-f6c2-403a-889c-11a5fdedb5e7" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Scanning process.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/845674de-d21d-4983-b142-e5fef4394c9c)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/845674de-d21d-4983-b142-e5fef4394c9c" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Scanning completed</p>
+<br>
 
 </details>
 <br>
