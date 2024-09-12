@@ -22,7 +22,7 @@ To configure Microsoft Integration Runtime for accessing SQL on-premises, follow
    - Description: (Optional) While not mandatory, adding a description can be helpful for future reference.
 6. Leave the remaining options as default and click **Create**.
 7. To finalize this part of the setup:
-   - Download the [Microsoft Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539) to install it locally (more details in the next section).
+   - Download the [Microsoft Purview Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539) to install it locally (more details in the next section).
    - Save one of the **keys**, as it will be required in a later step.
 <br>
 
@@ -61,27 +61,59 @@ To configure Microsoft Integration Runtime for accessing SQL on-premises, follow
 <br>
 
 <details>
-<summary>Downloading Microsoft Integration Runtime agent</summary>
-  
-[Microsoft Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539)
+<summary>02 - Downloading and Installing the Microsoft Purview Integration Runtime Agent</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/401a4d12-5263-400f-93a0-cb5be5c00f10)
+To install the Microsoft Purview Integration Runtime, follow these steps:
+1. Download the latest version of [Microsoft Purview Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539) from the official Microsoft website.
+2. Run the installer by double-clicking the downloaded file.
+3. Follow the prompts and select the default configuration settings during installation.
+<br>
 
-![image](https://github.com/user-attachments/assets/a804673e-237d-4cdc-96bc-ffe174b21475)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/401a4d12-5263-400f-93a0-cb5be5c00f10" width="650"></p>
+<p align="center">Download Microsoft Purview Integration Runtime.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/ce812ebf-a531-449e-8a15-a328a0690bc8)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a804673e-237d-4cdc-96bc-ffe174b21475" width="650"></p>
+<p align="center">Download Microsoft Purview Integration Runtime, choose the latest version.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/b1dc0495-887b-4471-a438-6dc50f6fcd44)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ce812ebf-a531-449e-8a15-a328a0690bc8" width="650"></p>
+<p align="center">Microsoft Purview Integration Runtime, installer downloaded.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/b3e8055c-847d-4c88-a413-6627c117164b)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b1dc0495-887b-4471-a438-6dc50f6fcd44" width="650"></p>
+<p align="center">Microsoft Purview Integration Runtime, executing installer.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/32e5b76d-c851-4140-8ff9-5583f7c1423f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b3e8055c-847d-4c88-a413-6627c117164b" width="300"></p>
+<p align="center">Microsoft Purview Integration Runtime installation, End-User License Agreement.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/e6035c21-4187-4e93-a00b-80bd82c02580)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/32e5b76d-c851-4140-8ff9-5583f7c1423f" width="300"></p>
+<p align="center">Microsoft Purview Integration Runtime installation, Destination Folder.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/e12c652a-bbe8-4778-b805-a153c737e1c9)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e6035c21-4187-4e93-a00b-80bd82c02580" width="300"></p>
+<p align="center">Microsoft Purview Integration Runtime installation, Install.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/edbed469-8765-45ea-a89b-c2a4d7b32e6e)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e12c652a-bbe8-4778-b805-a153c737e1c9" width="300"></p>
+<p align="center">Microsoft Purview Integration Runtime installation, Installation progress.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/edbed469-8765-45ea-a89b-c2a4d7b32e6e" width="300"></p>
+<p align="center">Microsoft Purview Integration Runtime installation, Installation completed.</p>
+<br>
 
 </details>
 
