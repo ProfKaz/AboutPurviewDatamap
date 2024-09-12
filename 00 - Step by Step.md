@@ -6,7 +6,7 @@ Let's go:
 
 1. You need to create a [Microsoft Purview Account](01%20-%20MicrosoftPurviewAccount.md) to have access to the Data Map option under Microsoft Purview portal.
 2. Then we will need to access to the [Data Map](02%20-%20PurviewPortalConfiguration.md) feature to start configuring our environment
-3. To access to our SQL on-premises:
+3. To access to our SQL [on-premises](03%20-%20On-premises%20connections.md):
    - **[Azure Key Vault](03a%20-%20Azure%20Key%20Vault.md) :** Used to securely store SQL credentials (both SQL and Windows authentication).
    - **[Microsoft Integration Runtime](03b%20-%20IntegrationRuntime.md) :** Install a dedicated server or cluster (in production) to run the Integration Runtime, which enables Microsoft Purview Data Map to access your on-premises SQL servers.
    - **[SQL Permissions](03c%20-%20Configure%20SQL%20on-premises.md) :** Create or assign an account to your SQL Servers or Databases with at least the db_datareader role, ensuring the ability to read and scan data.
