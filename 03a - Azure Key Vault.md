@@ -23,17 +23,17 @@ We will cover:
 <summary>01 - Creating an Azure Key Vault</summary>
 <br>
 
-In general the steps are:
-1. Go to the Azure Portal.
-2. Search for Key Vaults and click Create.
+Follow these general steps to create an Azure Key Vault:
+1. Go to the [Azure Portal](https://portal.azure.com).
+2. Search for **Key Vaults** and click Create.
 3. Fill in the necessary details:
    - Subscription: Select your subscription.
    - Resource Group: Choose an existing one or create a new one.
-   - Key Vault Name: Provide a unique name.
-   - Region: Select your region.
-4. Click Review + Create, and after validation, click Create.
+   - Key Vault Name: Provide a unique name for your Key Vault.
+   - Region: Select the appropriate region for your resources.
+4. Click **Review + Create**, and after validation, click **Create**.
 
-You can see the images below to drive to you through the process. 
+For a visual walkthrough, refer to the images below that will guide you step by step through the process. 
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/8e61d13a-742f-4d92-94e4-37fde8c5bba7" width="650"></p>
