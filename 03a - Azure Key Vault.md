@@ -191,17 +191,44 @@ For a visual walkthrough, refer to the images below that will guide you step by 
 <br>
 
 <details>
-<summary>04 - Storing SQL On-Premises Credentials in Azure Key Vault</summary>
+<summary>04 - Storing SQL On-Premises passwords in Azure Key Vault for Use with Microsoft Purview Data Map</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/6dfee81b-b4f6-48a2-aa5f-aa999d70b696)
+With all the necessary permissions assigned, we can now proceed to store the passwords required for **Microsoft Purview Data Map**. In this case, we will store the password created in [Step 03c](03c%20-%20Configure%20SQL%20on-premises.md) of this guide. To store the password in **Azure Key Vault**, follow these steps:
+1. In the **Key Vault console**, expand **Objects** and navigate to **Secrets**.
+2. Click **+ Generate/Import**
+3. Fill in the necessary details:
+   - **Upload options:** Keep Manual as the default setting.
+   - **Name:** Provide a clear and descriptive name for the secret. This name will be referenced later in the final step of this section.
+   - **Secret value:** Enter your SQL account password (the same one created in [Step 03c](03c%20-%20Configure%20SQL%20on-premises.md)).
+   - Leave the remaining options as is and click **Create**.
 
-![image](https://github.com/user-attachments/assets/4cc42366-086d-4b95-85f1-0db204a9b4c8)
+<br>
+   
+<p align="center">
+<img src="https://github.com/user-attachments/assets/48b7831d-3761-4dc7-b26b-8ba674c80812" width="650"></p>
+<p align="center">Key Vault console.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/f76021d6-2e4d-4e83-a8a0-46e36af131bf)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4cc42366-086d-4b95-85f1-0db204a9b4c8" width="650"></p>
+<p align="center">Key Vault Secrets menu.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/bdc83629-44c9-4bcd-a047-212f18a4bd7a)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f76021d6-2e4d-4e83-a8a0-46e36af131bf" width="650"></p>
+<p align="center">Key Vault, Create a secret.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/e1c1f140-63d2-4c2b-91b9-2a27698a8f2c)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/bdc83629-44c9-4bcd-a047-212f18a4bd7a" width="650"></p>
+<p align="center">Key Vault, fulfil the information required.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e1c1f140-63d2-4c2b-91b9-2a27698a8f2c" width="650"></p>
+<p align="center">Key Vault, secret created.</p>
+<br>
 
 </details>
 
