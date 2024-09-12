@@ -120,19 +120,49 @@ To install the Microsoft Purview Integration Runtime, follow these steps:
 <br>
 
 <details>
-<summary>Configuring Microsoft Integration Runtime agent</summary>
+<summary>03 - Configuring Microsoft Integration Runtime agent</summary>
+<br>
 
-![image](https://github.com/user-attachments/assets/954ba7db-d729-484e-bbcb-1d39d0b8e4f0)
+To configure the Microsoft Purview Integration Runtime, follow these steps:
+1. Open the **Windows menu**, search for **Microsoft Integration Runtime Configuration Manager**, and launch the application.
+2. On the first run, you will need to enter the key you saved earlier during setup.
+   - If you don’t have the key, you can retrieve it from Microsoft Purview Data Map under Source Management → Integration Runtimes (see the image below for reference).
+4. Enter the key and click **Register**
+5. In the next window, choose whether to enable the option **"Enable remote access from intranet"**.
+6. Click **Finish**.
+7. Once the configuration is validated, you should see a confirmation message indicating that the Integration Runtime is **successfully** connected.
+<br>
 
-![image](https://github.com/user-attachments/assets/ea3e9b67-4651-47e6-a8c6-d61cd0472132)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/954ba7db-d729-484e-bbcb-1d39d0b8e4f0" width="650"></p>
+<p align="center">Microsoft Purview Integration Runtime, First run.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/655ada04-5bdf-4fcc-9325-befaeeb1d7ba)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ea3e9b67-4651-47e6-a8c6-d61cd0472132" width="650"></p>
+<p align="center">Microsoft Purview Integration Runtime, Get Integration runtime key.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/6af59667-a723-4ce7-8c15-b6b6cca21321)
 
-![image](https://github.com/user-attachments/assets/3c2d8d43-bd80-4ea7-b2f4-ead0c239ffe3)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/655ada04-5bdf-4fcc-9325-befaeeb1d7ba" width="650"></p>
+<p align="center">Microsoft Purview Integration Runtime, Set Integration runtime key.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/2278bc59-2f39-443e-9a36-fb1d38ac777f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6af59667-a723-4ce7-8c15-b6b6cca21321" width="400"></p>
+<p align="center">Microsoft Purview Integration Runtime, Finish configuration.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3c2d8d43-bd80-4ea7-b2f4-ead0c239ffe3" width="400"></p>
+<p align="center">Microsoft Purview Integration Runtime, Registering process.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2278bc59-2f39-443e-9a36-fb1d38ac777f" width="400"></p>
+<p align="center">Microsoft Purview Integration Runtime, Registration sucesfully.</p>
+<br>
 
 </details>
 
