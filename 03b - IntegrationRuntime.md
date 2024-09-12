@@ -1,29 +1,60 @@
-# Microsoft Integration Runtime to access SQL On-premises
+## Microsoft Integration Runtime for Accessing SQL On-Premises
 
-To access to SQL On-premises it's required to install an agent as a kind of proxy to permit Purview Data Map reach the servers.
+To enable Microsoft Purview Data Map to access SQL on-premises, you need to install Microsoft Integration Runtime. This acts as a proxy or bridge, allowing secure communication between Purview and your on-premises SQL servers.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/b5cc3033-56e8-4934-9b65-394e24f0191f" width="700"></p>
+<img src="https://github.com/user-attachments/assets/b5cc3033-56e8-4934-9b65-394e24f0191f" width="650"></p>
 <p align="center">Microsoft Purview Data Map and Microsoft Integration Runtime</p>
 
 <br>
 
 <details>
-<summary>Starting with Microsoft Integration Runtime agent</summary>
+<summary>01 - Setting Up the Microsoft Integration Runtime Agent</summary>
+<br>
 
-To configure this service we need to connect to [Purview Portal](https://purview.microsoft.com) and select data map
+To configure Microsoft Integration Runtime for accessing SQL on-premises, follow these steps:
+1. Connect to [Microsoft Purview Portal](https://purview.microsoft.com) and navigate to **Data Map**.
+2. Expand **Source Management** and select **Integration runtimes**
+3. Click **+ New**
+4. In the pane on the right, select **Self-Hosted** and click **Continue**.
+5. Complete the required information:
+   - **Integration runtime name:** Enter a clear and descriptive name.
+   - Description: (Optional) While not mandatory, adding a description can be helpful for future reference.
+6. Leave the remaining options as default and click **Create**.
+7. To finalize this part of the setup:
+   - Download the [Microsoft Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539) to install it locally (more details in the next section).
+   - Save one of the **keys**, as it will be required in a later step.
+<br>
 
-![image](https://github.com/user-attachments/assets/c00923a6-69e5-4ea9-83c3-87d50f356e3f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c00923a6-69e5-4ea9-83c3-87d50f356e3f" width="650"></p>
+<p align="center">Microsoft Purview Portal.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/e512596b-c4ed-42ec-8cb1-f063647c188d)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e512596b-c4ed-42ec-8cb1-f063647c188d" width="650"></p>
+<p align="center">Microsoft Purview Data Map console.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/8bb88ab0-26f3-4a73-a480-5802caf7330e)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8bb88ab0-26f3-4a73-a480-5802caf7330e" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Integration runtimes.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/8f7781f1-078e-4827-ba1c-efc60f4e8854)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8f7781f1-078e-4827-ba1c-efc60f4e8854" width="650"></p>
+<p align="center">Microsoft Purview Data Map, New integration runtimes.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/87ba8df1-9d1a-4651-89fc-1efd1db9b67a)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/87ba8df1-9d1a-4651-89fc-1efd1db9b67a" width="650"></p>
+<p align="center">Microsoft Purview Data Map, New integration runtimes configuration.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/9f0c4e18-1ce0-454d-9df3-db02749b774b
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9f0c4e18-1ce0-454d-9df3-db02749b774b" width="650"></p>
+<p align="center">Microsoft Purview Data Map, Integration runtimes configuration.</p>
+<br>
 
 </details>
 
@@ -32,7 +63,7 @@ To configure this service we need to connect to [Purview Portal](https://purview
 <details>
 <summary>Downloading Microsoft Integration Runtime agent</summary>
   
-[Microsoft Purview Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539)
+[Microsoft Integration Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=105539)
 
 ![image](https://github.com/user-attachments/assets/401a4d12-5263-400f-93a0-cb5be5c00f10)
 
