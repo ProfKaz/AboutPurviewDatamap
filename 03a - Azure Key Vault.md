@@ -101,6 +101,8 @@ In this step, we will assign the **Key Vault Administrator** role to your accoun
 4. Click **+ Select memebers**.
 5. In the right-hand menu, search for your account and select it to assign the administrator role.
 6. Finally, press **Review + assign** twice to complete the process.
+
+For a visual walkthrough, refer to the images below that will guide you step by step through the process.
    
 <br>
    
@@ -150,24 +152,46 @@ In this step, we will assign the **Key Vault Secrets User** role to your account
 5. In the right-hand menu, search for the Microsoft Purview Account created during [Step 01](01%20-%20MicrosoftPurviewAccount.md) and select it to assign the administrator role.
 6. Finally, press **Review + assign** twice to complete the process.
 
-![image](https://github.com/user-attachments/assets/d0a243bf-98e6-4b3f-841e-ba705d47e4de)
+For a visual walkthrough, refer to the images below that will guide you step by step through the process.
 
-![image](https://github.com/user-attachments/assets/42eb76fb-3362-4f4b-a261-82cb007265d9)
+<br>
+   
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d0a243bf-98e6-4b3f-841e-ba705d47e4de" width="650"></p>
+<p align="center">Key Vault Access control (IAM) menu.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/5300f4f8-0916-440a-887f-e3e8b1f6c504)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/42eb76fb-3362-4f4b-a261-82cb007265d9" width="650"></p>
+<p align="center">Key Vault, Add role assignment (Key Vault Secrets User).</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/a9b8ab88-7ed1-4daf-bda1-33c8c8140e26)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/5300f4f8-0916-440a-887f-e3e8b1f6c504" width="650"></p>
+<p align="center">Key Vault, Select members to assign role.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/4ae4e801-f95d-4d31-8551-52748061f750)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a9b8ab88-7ed1-4daf-bda1-33c8c8140e26" width="650"></p>
+<p align="center">Key Vault, Search for the Microsoft Purview Account.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/f3d4a3e9-d540-467f-9cec-65a6d5be6a9f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4ae4e801-f95d-4d31-8551-52748061f750" width="650"></p>
+<p align="center">Key Vault, Review and assign.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f3d4a3e9-d540-467f-9cec-65a6d5be6a9f" width="650"></p>
+<p align="center">Key Vault, Assign summary.</p>
+<br>
 
 </details>
 
 <br>
 
 <details>
-<summary>Storing SQL On-Premises Credentials in Azure Key Vault</summary>
+<summary>04 - Storing SQL On-Premises Credentials in Azure Key Vault</summary>
 
 ![image](https://github.com/user-attachments/assets/6dfee81b-b4f6-48a2-aa5f-aa999d70b696)
 
