@@ -63,23 +63,49 @@ Please consider this as an excercise to test Purview Data, the configuration use
 <details>
 <summary>03 - How to connect from your PC to Azure Blob storage</summary>
 <br>
-![Azure Storage Explorer icons8](https://github.com/user-attachments/assets/33e05f32-4be5-49a2-9b60-1da0e1a9a144)
-Download Azure Storage Explorer from https://azure.microsoft.com/en-us/products/storage/storage-explorer/
 
-![image](https://github.com/user-attachments/assets/aceb5c3d-ecb4-43b5-9001-599f1e30aff3)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/33e05f32-4be5-49a2-9b60-1da0e1a9a144" width="50"></p>
 
-![image](https://github.com/user-attachments/assets/0443a76b-4f80-4f2e-bafb-7454a6704cb4)
+[Download Azure Storage Explorer.](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
+<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/925ff4e2-5213-476c-8a45-bde034cd96bd)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/aceb5c3d-ecb4-43b5-9001-599f1e30aff3" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Sign-in with Azure.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/4b72eacf-aa68-4342-a3a7-9376ee33f5b6)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0443a76b-4f80-4f2e-bafb-7454a6704cb4" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Connect to Azure Storage.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/80650cfe-e3e3-4d51-9fab-0a2d345db016)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/925ff4e2-5213-476c-8a45-bde034cd96bd" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Add your Azure credentials.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/33238aba-8865-454c-9814-3b614f83d126)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4b72eacf-aa68-4342-a3a7-9376ee33f5b6" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Azure Storage account connected.</p>
+<br>
 
-![image](https://github.com/user-attachments/assets/7076c0d9-c79f-43d5-a468-3743da944628)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/80650cfe-e3e3-4d51-9fab-0a2d345db016" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Expand containers.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/33238aba-8865-454c-9814-3b614f83d126" width="650"></p>
+<p align="center">Microsoft Azure Storage Explorer, Upload data.</p>
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7076c0d9-c79f-43d5-a468-3743da944628" width="300"></p>
+<p align="center">Microsoft Azure Storage Explorer, Select folder to upload data.</p>
+<br>
 
 </details>
-
+<br><br>
 <br><br>
