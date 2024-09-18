@@ -17,3 +17,18 @@ If you are not able to connect from Azure Portal to the Query Editor
 ![image](https://github.com/user-attachments/assets/0854575c-e8ea-4761-8d83-8e87a9e4459f)
 
 ![image](https://github.com/user-attachments/assets/dcaa9930-3d39-46b6-88a5-e87c686fe57e)
+
+## SQL Connection
+
+![image](https://github.com/user-attachments/assets/6ec8d236-d33d-42dc-82a7-9ca02b072e59)
+
+```SQL
+CREATE USER [Your Purview Account] FROM EXTERNAL PROVIDER  
+GO  
+EXEC sp_addrolemember 'db_owner', [Your Purview Account] 
+GO
+```
+
+![image](https://github.com/user-attachments/assets/90d40311-eae3-4376-88f4-0de227a8eae0)
+
+![image](https://github.com/user-attachments/assets/b93b2d72-1d5d-4ed4-b2ec-122db2511808)
