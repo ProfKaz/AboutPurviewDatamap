@@ -1,9 +1,9 @@
 ## Registering your SQL On-Premises in Microsoft Purview Data Map
 
 After completing the previous steps, you should have the following components ready:
-- **Azure Key Vault:** Configured to securely store your SQL credentials.
-- **Microsoft Integration Runtime:** Set up as a bridge for Microsoft Purview Data Map to access your SQL Server on-premises.
-- **SQL On-Premises:** Configured with a SQL account for Microsoft Purview Data Map.
+- **[Azure Key Vault](03a%20-%20Azure%20Key%20Vault.md) :** Configured to securely store your SQL credentials.
+- **[Microsoft Purview Integration Runtime](03b%20-%20IntegrationRuntime.md):** Set up as a bridge for Microsoft Purview Data Map to access your SQL Server on-premises.
+- **[SQL on-premises Permissions](03c%20-%20Configure%20SQL%20on-premises.md):** Configured with a SQL account for Microsoft Purview Data Map.
 
 Now, let's move forward with registering your SQL on-premises server in Purview Data Map to enable secure data scanning and management.
 
