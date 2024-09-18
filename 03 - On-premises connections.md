@@ -9,7 +9,7 @@ To accomplish this, you will need to implement the following:
 4. **[Purview Connection](03d%20-%20Add%20SQL%20On-premises%20to%20DataMap.md) :** Connect the SQL servers to Microsoft Purview Data Map via the Integration Runtime, using the credentials securely stored in Azure Key Vault.
 <br>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/aabcb862-cc68-4db1-ac14-38d05476f6c5" WIDTH="700"></p>
+<img src="https://github.com/user-attachments/assets/aabcb862-cc68-4db1-ac14-38d05476f6c5" WIDTH="650"></p>
 <p align="center">Microsoft Purview Data Map scan SQL On-premises</p>
 
 <br>
