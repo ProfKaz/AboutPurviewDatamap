@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/55d16916-8c47-4307-87f1-f595e7943ba6)## Configuring Managed Virtual Network for Microsoft Purview Data Map
+## Configuring Managed Virtual Network for Microsoft Purview Data Map
 
 ![image](https://github.com/user-attachments/assets/dc68c16c-f379-4d29-a779-31da7b0be91c)
 
@@ -27,3 +27,25 @@
 ![image](https://github.com/user-attachments/assets/fcbeea04-08ea-4d6e-a5fa-c9f01a74604d)
 
 ![image](https://github.com/user-attachments/assets/16e3f396-da52-4292-87bb-64103bac6882)
+
+
+### Settings permissions to connect to Azure SQL Server Private Network
+
+![image](https://github.com/user-attachments/assets/13db5d14-0e48-4417-aa5e-3c49347da532)
+
+![image](https://github.com/user-attachments/assets/8b3d70eb-c992-40ff-95c4-d48f166a6cd1)
+
+![image](https://github.com/user-attachments/assets/0bfa446d-1e27-4fcd-8748-cd42fadca773)
+
+![image](https://github.com/user-attachments/assets/2b0a1e3c-60ce-4f4d-ab09-3a7ce8857c7e)
+
+![image](https://github.com/user-attachments/assets/b423bbd3-a38a-41ba-9df8-e4a5e76e5789)
+
+![image](https://github.com/user-attachments/assets/349d7a01-279e-4f40-8f09-7491ad0f6ab5)
+
+![image](https://github.com/user-attachments/assets/b0631c36-47d2-4c5b-9c1f-f46c68acbbb9)
+
+![image](https://github.com/user-attachments/assets/1b180832-31e3-4ee0-92da-545c64ec97c4)
+
+![image](https://github.com/user-attachments/assets/b9dddac8-0798-4b13-92aa-5f57896124e2)
+
