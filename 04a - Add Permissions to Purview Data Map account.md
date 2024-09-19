@@ -5,7 +5,7 @@ To successfully scan an Azure Blob Storage using Microsoft Purview, follow these
 2. Select the Storage Account that contains the Blob Storage you wish to scan.
 3. Navigate to Access Control (IAM) from the left-hand menu.
 4. Click **+ Add** and select **Add role assignment**.
-5. In the role selection window, search for Storage Blob Data Reader, and select it.
+5. In the role selection window, search for **Storage Blob Data Reader**, and select it.
 6. Under the Members section, click Select members.
 7. Search for your Microsoft Purview account (this could be the managed identity or service principal you’ve set up) and select it.
 8. Complete the process by reviewing your selections and clicking **Review + Assign**.
@@ -14,7 +14,7 @@ Below is a visual guide to assist you in completing these steps.
 <br>
 
 <details>
-<summary>Adding Azure Storage Blob Reader role to your Microsoft Purview account</summary>
+<summary>Adding Azure Storage Blob Data Reader role to your Microsoft Purview account</summary>
 
 <br>
 <p align="center">
