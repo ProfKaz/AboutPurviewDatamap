@@ -1,11 +1,11 @@
 ## Azure Blob Storage integration
 
-In this section, we will outline the steps required to enable Microsoft Purview Data Map to scan your Azure Blob Storage environment.
+In this section, we’ll walk through the steps required to enable Microsoft Purview Data Map to scan your Azure Blob Storage environment.
 
-To accomplish this, you will need to implement the following:
-1. Have a [Storage account](Additional%20Information/CreateAndUseAzureStorageAccount.md), this service permit to enable Azure Blob Storage
-2. Set permissions at Azure Storage Account level to the Microsoft Purview Account
-3. Register Azure Blob Storage on Microsoft Purview Data Map.
+To successfully integrate Azure Blob Storage with Purview, follow these steps:
+1. **[Set Up a Storage Account](Additional%20Information/CreateAndUseAzureStorageAccount.md) :** Ensure you have an Azure Storage Account that supports Blob Storage. This account will house the blobs that you wish to scan and manage using Purview.
+2. **[Assign Permissions](04a%20-%20Add%20Permissions%20to%20Purview%20Data%20Map%20account.md) :** Grant the appropriate permissions at the Storage Account level to your Microsoft Purview account. The Purview account will need read access to the Blob Storage for successful scanning. You can achieve this by assigning the Storage Blob Data Reader role to the Purview-managed identity or service principal.
+3. **[Register Azure Blob Storage in Microsoft Purview Data Map](04b%20-%20Register%20Azure%20Blob%20Storage%20to%20Scan.md) :** After permissions are set, go to the Microsoft Purview portal, navigate to the Data Map, and register your Azure Blob Storage as a data source. During registration, you’ll provide necessary details such as the Storage Account name and the access method.
 
 <br>
 <p align="center">
