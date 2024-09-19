@@ -11,7 +11,7 @@ Ready? Let’s go!
    - **[Microsoft Purview Integration Runtime](03b%20-%20IntegrationRuntime.md) :** Set up a dedicated server or a cluster (for production environments) to install and run the Integration Runtime. This is the bridge that allows Purview Data Map to reach your on-premises SQL servers.
    - **[SQL Permissions](03c%20-%20Configure%20SQL%20on-premises.md) :** Make sure you create or assign an account in your SQL Servers or Databases with at least the **db_datareader** role. Without this, scanning and reading the data just won’t happen!
    - **[Purview Connection](03d%20-%20Add%20SQL%20On-premises%20to%20DataMap.md) :** Now comes the fun part—connecting **SQL servers** to **Microsoft Purview Data Map** through the **Integration Runtime** using the credentials you've securely stored in **Azure Key Vault**.
-4. **[Accessing Azure Blob Storage](04%20-%20Azure%20Blob$20Storage.md)** Let’s not forget about your Blob Storage:
+4. **[Accessing Azure Blob Storage](04%20-%20Azure%20Blob%20Storage.md)** Let’s not forget about your Blob Storage:
    - First, **[add permissions](04a%20-%20Add%20Permissions%20to%20Purview%20Data%20Map%20account.md)** to allow Purview Data Map to access and read from your Blob storage.
    - Then, **[register](04b%20-%20Register%20Azure%20Blob%20Storage%20to%20Scan.md)** the Blob Storage within Purview Data Map and start scanning!
 5. **[Accessing Azure SQL Database](05%20-%20Azure%20SQL%20Database.md)** Similar steps apply for your Azure SQL Database:
