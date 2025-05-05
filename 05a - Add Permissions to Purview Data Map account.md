@@ -11,6 +11,12 @@ EXEC sp_addrolemember 'db_owner', [Your Purview Account]
 GO
 ```
 
+> Run the following command on your SQL database to create a master key
+```SQL
+Create master key
+Go
+```
+
 > To only scan your data with Microsoft Purview Data Mapa you need to assign only database data reader permission
 ```SQL
 CREATE USER [Your Purview Account] FROM EXTERNAL PROVIDER  
